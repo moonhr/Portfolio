@@ -6,7 +6,7 @@ interface cardPorps {
 
 const Card: React.FC<cardPorps> = ({ children }) => {
   return (
-    <div className="border border-black aspect-square bg-slate-50">
+    <div className="border border-black aspect-square bg-slate-50 text-zinc-900">
       {children}
     </div>
   );
