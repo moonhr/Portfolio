@@ -12,6 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      aspectRatio: {
+        "16/10": "16 / 10",
+        "9/16": "9 / 16",
+      },
+      fontFamily: {
+        "cutive-mono": ["Cutive Mono", "monospace"],
+      },
     },
   },
   plugins: [],
