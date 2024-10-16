@@ -1,0 +1,116 @@
+{
+  "duckpiano": {
+    "title": "Duck Piano",
+    "description": "기계식 키보드 사운드를 모니터 안에서 동작하게 하고자 제작한 어플리케이션. 각 음에 주파수값에 사운드를 매칭하여 음계를 나타낸다.",
+    "stack": {
+      "frontend": ["typescript", "react", "tailwindcss", "electron", "babel", "webpack"],
+      "backend": ["nodejs"]
+    },
+    "tags": {
+      "name" : "moon hye rim",
+      "title" : "duck piano",
+      "date" : "2024-10-06"
+    }
+  },
+  "kdt-class-lol-data":{
+    "title": "KDT Class LOL Data",
+    "description": "KDT학생들의 LOL 주 챔피언을 기록한다. NAME | KDT반 학생들의 이름만 통과한다.  CHAMPION | API로 받아온 LOL 챔피언의 이름과 일치하는 이름만 통과한다.  모든 입력값이 참이여야 통과한다. 데이터 검증은 SERVER에서 담당한다.",
+    "stack": {
+      "frontend": ["html", "css", "javascript", "scss"],
+      "backend": ["nodejs"]
+    },
+    "tags": {
+      "name" : "moon hye rim",
+      "title" : "KDT Class LOL Data",
+      "date" : "2024-06-08"
+    }
+  },
+  "starting-pokemon": {
+    "title": "Starting Pokemon",
+    "description": "아파트 전단지를 보고 만든 오박사의 시작포켓몬",
+    "stack": {
+      "frontend": ["photoshop","html", "css", "javascript", "scss"]
+    },
+    "tags": {
+      "name" : "moon hye rim",
+      "title" : "Starting Pokemon",
+      "date" : "2024-05-08"
+    }
+  },
+  "popcat-piano": {
+    "title": "Popcat Piano",
+    "description": "숫자키 1,2,3,4,5,6,7,8 를 이용해 총 8가지 음을 연주할 수 있는 팝캣 피아노. 한때 유행했던 팝캣이라는 밈을 활용하여 제작하였다. 눌렸을 때 입을 벌리고 흔들리고 있는 고양이가 포인트.",
+    "stack": {
+      "frontend": ["photoshop","html", "css", "javascript"]
+    },
+    "tags": {
+      "name" : "moon hye rim",
+      "title" : "Popcat Piano",
+      "date" : "2024-04-30"
+    }
+  },
+  "vending-machine": {
+    "title": "Vending Machine",
+    "description": "원하는 꿈을 사고팔 수 있는 자판기. 가치가 높을수록 값이 비싸다.",
+    "stack": {
+      "frontend": ["html", "tailwindcss"],
+      "backend": ["express"],
+      "database": ["sqlite3"],
+      "tools": ["git", "github", "typescript"]
+    },
+    "role": "홈페이지 제작 및 입금액에 따른 제품 출력 기능 구현 담당",
+    "tags": {
+      "name" : "TEAM Project",
+      "title" : "rock coders",
+      "date" : "2024-07-10"
+    }
+  },
+  "erp": {
+    "title": "ERP",
+    "description": "크랩크랩버거의 키오스크를 구상. 사용자페이지와 관리자페이지가 분리되어 있다.",
+    "stack": {
+      "frontend": ["nextjs", "tailwindcss","shadcn"],
+      "backend": ["nestjs", "express", "jwt"],
+      "database": ["mongodb"],
+      "tools": ["git", "github", "eslint", "typescript"]
+    },
+    "role": "Front | login 페이지 제작, 동적 테이블 컴포넌트, 재고조회 페이지, 사용자 접근 제한 미들웨어, 통계 페이지, 사용자 행동 기록 Back | 사용자 로그인 인증 처리 기능, DB스키마 정의, 로그아웃 처리 기능, 사용자 행동 로그 기록 처리, 로그 계산 및 출력 처리",
+    "tags": {
+      "name" : "TEAM Project",
+      "title" : "rock coders",
+      "date" : "2024-08-23"
+    }
+  },
+  "whisper-in-a-bottle": {
+    "title": "Whisper in a Bottle",
+    "description": "익명의 사용자에게 편지를 바다에 띄워 보낼 수 있다면 어떨까? 사용자간의 거리만큼 편지는 늦게 도착한다.",
+    "stack": {
+      "design": ["figma", "blender"],
+      "frontend": ["nextjs", "tailwindcss", "r3f"],
+      "backend": ["nestjs", "socket.io", "jwt"],
+      "database": ["amazonrds"],
+      "text": ["jest"],
+      "tools": ["git", "github", "eslint", "jira", "typescript"]
+    },
+    "tags": {
+      "name" : "TEAM Project",
+      "title" : "no ctrl+z club",
+      "date" : "2024-09-08"
+    }
+  },
+  "machine-learning": {
+    "title": "Machine Learning",
+    "description": "사람의 얼굴을 읽는 것, 즉 관상이라는 개념을 머신러닝으로 판단할 수는 없을까? 개인의 관상을 판단하여 어울리는 역할을 추천해준다.",
+    "stack": {
+      "frontend": ["nextjs", "tailwindcss", "nextui"],
+      "backend": ["fastapi"],
+      "tools": ["git", "github","typescript"]
+    },
+    "role": "백엔드 구축 및 머신러닝 이미지 전처리 담당",
+    "tags": {
+      "name" : "TEAM Project",
+      "title" : "먼지능",
+      "date" : "2024-10-13"
+    }
+  }
+}
