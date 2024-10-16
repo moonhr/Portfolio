@@ -6,7 +6,7 @@ const NameCardBack = () => {
       <Image
         src="/moonhyerim.png"
         alt="profile"
-        width={600}
+        width={800}
         height={100}
         style={{ width: "auto", height: "auto" }}
       />

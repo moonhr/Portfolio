@@ -17,13 +17,13 @@ const Mac = ({ src, alt, width, height }: MacProps) => {
         height={200}
         className="z-10 relative w-full"
       />
-      <div className="absolute top-0 w-full flex justify-center items-center mt-1">
+      <div className="absolute top-0 w-full flex justify-center items-center">
         <Image
           src={src}
           alt={alt}
           width={width}
           height={height}
-          className="z-0 absolute top-0 w-5/6 m-auto"
+          className="z-0 absolute top-0 w-5/6 m-auto rounded-lg mt-1"
         />
       </div>
     </div>

@@ -5,9 +5,10 @@ import NameCard from "../molecule/NameCard";
 import FlipCard from "../utils/flip_card";
 import ProjectTemplate from "../templates/project_template";
 import NameCardBack from "../molecule/name_card_back";
+
 const DashboardLayout = () => {
   return (
-    <div className="grid grid-cols-2 w-[98vw] h-full gap-4 overflow-x-hidden overflow-y-auto">
+    <div className="flex flex-col w-[80vw] h-full gap-10">
       <FlipCard frontContent={<NameCard />} backContent={<NameCardBack />} />
       <FlipCard
         frontContent={<Card>Duck Piano</Card>}

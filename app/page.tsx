@@ -3,7 +3,7 @@ import DashboardLayout from "../src/components/templates/DashboardLayout";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex justify-center items-center w-screen h-screen">
       <DashboardLayout />
     </div>
   );
