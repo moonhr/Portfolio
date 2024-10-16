@@ -35,6 +35,11 @@
       "name" : "moon hye rim",
       "title" : "Starting Pokemon",
       "date" : "2024-05-08"
+    },
+    "qr": {
+      "src": "/qr/starting-pokemon.png",
+      "alt": "starting pokemon",
+      "link": "https://moonhr.github.io/starting-poketmon/"
     }
   },
   "popcat-piano": {
@@ -47,6 +52,11 @@
       "name" : "moon hye rim",
       "title" : "Popcat Piano",
       "date" : "2024-04-30"
+    },
+    "qr": {
+      "src": "/qr/popcat-piano.png",
+      "alt": "popcat piano",
+      "link": "https://moonhr.github.io/Popcat-Piano/"
     }
   },
   "vending-machine": {
