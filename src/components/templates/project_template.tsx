@@ -16,6 +16,11 @@ interface PageData {
     title?: string;
     date?: string;
   };
+  qr?: {
+    src?: string;
+    alt?: string;
+    link?: string;
+  };
   image?: {
     src?: string;
     alt?: string;
@@ -84,6 +89,14 @@ const ProjectTemplate: React.FC<ProjectTemplateProps> = ({ projectKey }) => {
             title={projectData.title}
             stack={projectData.stack}
             caption={projectData.description}
+            qr={
+              projectData.qr
+                ? {
+                    ...projectData.qr,
+                    link: projectData.qr.link || undefined,
+                  }
+                : undefined
+            }
           />
         </div>
         <div className="w-full md:w-2/3 flex items-center justify-center">
