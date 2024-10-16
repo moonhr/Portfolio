@@ -42,7 +42,6 @@ const Stack: React.FC<StackProps> = ({ stack }) => {
         const response = await fetch("/icon/icon.json");
         const data: IconsData = await response.json();
         setIcons(data.icon);
-        console.log("아이콘 데이터 로드됨:", data);
 
         // 아이콘 데이터를 로컬 스토리지에 캐시
         localStorage.setItem("cachedIcons", JSON.stringify(data.icon));
